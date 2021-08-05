@@ -9,6 +9,7 @@ module.exports = {
     siteUrl: `https://dingziqi.github.io/compatible-issues/`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
