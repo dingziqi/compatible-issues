@@ -7,6 +7,7 @@
     "url": "https://github.com/dingziqi/compatible/issues"
   },
   "dependencies": {
+    "commitizen": "^4.2.4",
     "gatsby": "^3.10.2",
     "gatsby-plugin-feed": "^3.10.0",
     "gatsby-plugin-gatsby-cloud": "^2.10.1",
@@ -35,6 +36,7 @@
     "typeface-montserrat": "0.0.75"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
     "prettier": "2.3.2"
   },
   "homepage": "https://dingziqi.github.io/compatible-issues/",
@@ -54,6 +56,12 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "cz": "cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
